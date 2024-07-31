@@ -1,0 +1,27 @@
+.header__container {
+    max-width: 100vw;
+    height: 20vh;
+    padding: 1rem;
+}
+
+.header__items {
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__items .texto__titulo {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.2rem;
+}
+
+.texto__subtitulo {
+    font-weight: 400;
+    color: var(--cinza-texto);
+    font-size: 1rem;
+}
+
+@media screen and (min-width: 768px) {}
